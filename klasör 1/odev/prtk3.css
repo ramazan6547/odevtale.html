@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(resim2.jpg);
+    background-repeat: none;
+    background-position: center;
+}
+.genel{
+    width:500px;
+    height: 550px;
+    margin: auto;
+    padding: 30px;
+    background-color: gray;
+    text-align: center;
+    color: white;
+    margin-top: 50px;
+    margin-bottom: 15px;
+    
+}
+.genel img{
+    width: 200px;
+    border-radius: 100px;
+    margin-bottom: 20px;
+}
+.yazi{
+    margin-bottom: 40px;
+}
+.yazi h1{
+    margin-bottom: 30px;
+    letter-spacing: 9px;
+}
+.yazi h2{
+    margin-bottom: 30px;
+    letter-spacing: 3px;
+}
+
+.ikon img{
+    width: 50px;
+    padding: 0 3px;
+
+}
+.alt{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(241, 233, 233);
+
+}
+.alt .alt1 img{
+    width: 3rem;
+    
+
+    }
+.alt .alt2 img{
+  width: 9rem;
+}

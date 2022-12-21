@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="form.css">
+</head>
+<body>
+  <h1>REGISTER PAGE</h1>
+  <form action="">
+    <div class="inputs-div">
+      <label for="first">first name:</label>
+      <input class="inputs" 
+       type="text"
+       id="first"
+       name="first"
+       placeholder="Your First Name"
+       >
+       
+    </div>
+   
+    <div class="inputs-div">
+      <label for="last">last name:</label>
+      <input class="inputs" 
+       type="text"
+       id="last"
+       name="last"
+       placeholder="Your last Name"
+       >
+    </div>
+    <div class="inputs-div">
+      <label for="email">email:</label>
+      <input class="inputs" 
+       type="email"
+      id="email"
+      name="email"
+      placeholder="your email">
+    </div>
+    <div class="inputs-div">
+      <label for="password">password:</label>
+      <input class="inputs" 
+       type="password"
+      id="password"
+      name="password"
+      placeholder="your password">
+    </div>
+    <div class="inputs-div">
+      <label for="birth">day of birth:</label>
+      <input class="inputs" 
+       type="date"
+      id="birth"
+      name="birth"
+      min="2020-01-01"
+      value="2022-01-01"
+      placeholder="your birthday">
+
+    </div>
+    <div class="inputs-div">
+      <label for="phone">phone:</label>
+      <input class="inputs" 
+       type="tel"
+      id="phone"
+      name="phone"
+      placeholder="your phone number">
+    </div>
+    <div class="inputs-div">
+      <label for="adress">Adress:</label>
+      <textarea class="inputs" 
+       name="adress"
+        id="adress"
+         cols="30"
+          rows="10">
+        </textarea>
+    </div>
+    <div class="inputs-div">
+      <label for="country">country:</label>
+      <select class="inputs"  name="country" id="country">
+      <option value="">select country</option>
+      <option value="turkey">turkey</option>
+      <option value="germany">germany</option>
+      <option value="usa">usa</option>
+      <option value="uk">uk</option>
+      </select>
+    </div>
+    <div class="inputs-div">
+      <label for="gender">gender:</label>
+     <div class="gender-div" >
+      <input class="radio-check"   
+      type="radio"
+      id="male"
+      name="gender">
+      <label for="male">male</label>
+      <input class="radio-check" 
+       type="radio"
+      id="female"
+      name="gender"
+      checked>
+      <label for="female">female</label>
+     </div>
+    
+    </div>
+    <div class="btn-container">
+     <input type="submit" value="save">
+     <input type="reset" value="clear">
+    </div>
+   
+  </form>
+</body>
+</html>

@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(resim2.jpg);
+    background-repeat: no-repeat;
+   background-position: center;
+   
+}
+.ust{
+    width: 100%;
+    height:  100px;
+    display: flex;
+    justify-content: space-between;
+    background-color: aqua;
+    align-items:center;
+    color: white;
+}
+.hh{
+    font-size: 30px;
+    padding-left: 30px;
+}
+.ull a{
+    margin: 0 30px;
+    font-size: 20px;
+    color: white;
+    
+}
+.ull a:hover{
+    
+    background-color: orangered;
+}
+.orta{
+    text-align: center;
+    /* margin: auto 0; */
+    margin-top: 8rem;
+    
+}
+.orta1 h1{
+    font-size: 36px;
+    letter-spacing: 5px;
+    color: white;
+}
+.orta1 h3{
+    font-size: 24px;
+    /* color: white; */
+    margin: 15px 0;
+    color: white;
+}
+.orta2 {
+    
+    border: 1px;
+
+}
+.orta2 button{
+    background-color: rgb(207, 19, 19);
+    border-radius: 20px;
+    padding: 10px;
+    color: white;
+    width: 8rem;
+    border: none;
+}
+.orta2 button:hover{
+    background-color: hsl(299, 100%, 40%);
+    color: aliceblue;
+    font-weight: 700;
+    cursor: pointer;
+}
+.alt{
+    display: flex;
+    justify-content: space-between;
+    background-color: blue;
+    margin-top: 15rem;
+    
+}
+.alt .alt1 img{
+    width: 3rem;
+
+}
+.alt .alt2 img{
+    width: 15rem;
+    height: 3rem;
+    align-items: flex-end;
+}
+

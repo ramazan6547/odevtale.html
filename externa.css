@@ -1,0 +1,22 @@
+body{
+    background-color: azure;
+}
+h1{
+    color: red;
+}
+h1:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+li{
+    list-style-type: none;
+    color: blueviolet;
+}
+li:hover{
+    color: purple;
+    font-weight: 800;
+    cursor: pointer;
+}
+.list{
+    border: 3px solid red;
+}

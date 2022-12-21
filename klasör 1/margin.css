@@ -1,0 +1,40 @@
+h1{
+    color: brown;
+     margin-bottom: 15px;
+ 
+ }
+ .rmzn{
+     background-color: aqua;
+   
+ }
+ .div4{
+     color: rgb(210, 30, 30);
+     background-color: darkorange;
+     margin: 15px;
+ 
+ width: 60px;
+ text-align: center;
+ border-radius: 20px;
+ margin: 20px auto;
+ }
+ .div4 :hover{
+ background-color: aqua;
+ color: darkgreen;
+ cursor: pointer;
+ }
+ .ram{
+     text-align: center;
+ }
+ .ram1{
+     display: inline-block;
+     background-color: rgb(221, 152, 68);
+     width: 100px;
+     border-radius: 20px;
+     text-align: center;
+ }
+ .ram :hover{
+     background-color: aquamarine;
+     color: brown;
+     cursor: pointer;
+ }
+ 
